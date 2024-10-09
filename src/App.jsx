@@ -1,8 +1,5 @@
 
 import Card from '../card/Card';
-import Calculator from './calcultaor/Calcultor';
-
-
 
 function App() {
  
@@ -52,7 +49,7 @@ function App() {
    p ="Flexible programmatic APIs with full TypeScript typing." /> 
 
 </div> 
-<Calculator/>
+
     </>
   )
 }
