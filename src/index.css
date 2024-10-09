@@ -1,0 +1,15 @@
+.clt{
+    width: 100%;
+    height: 80%;
+   
+    position:absolute;
+}
+.clt-contant { 
+    width: 100%;
+    height: 100%;
+  display: flex;
+  justify-content: center;
+  
+ 
+
+}

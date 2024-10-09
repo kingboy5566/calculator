@@ -24,17 +24,20 @@ function AC(){
 
     return(
 
-
+<div className="clt">
+<div className="clt-contant">
 <div  style={{
     borderRadius :"4px",
     width  : "18%",
-    height :  "50%",
+    height :  "350px",
     marginLeft :"40%",
     textAlign :"center",
     margin :"10px",
     position : "absolute",
     background : "black",
-}}>
+    border:"1px solid green",
+   
+}}  >
 
 <Input value={number}/> <br />
 <div style={{
@@ -49,6 +52,7 @@ function AC(){
 <Button text="0" action = {handle}/> <Button text="00" action = {handle}/> <Button text="." action = {handle}/> <Button text="=" action = {equal} /> <br /></div>
  
 
+</div></div>
 </div>
     )
 }

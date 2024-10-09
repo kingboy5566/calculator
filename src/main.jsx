@@ -6,7 +6,7 @@ import Calculator from './calcultaor/Calcultor.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <App /> 
     <Calculator  />
-  </StrictMode>,
+  </StrictMode>
 )
