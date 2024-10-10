@@ -4,12 +4,13 @@ function Button(props){
     style={{
         border :"1px solid black",
         borderRadius: "50px",
-        width :"36px",
-        height :"36px",
-        margin : "5px",
+        width :"40px",
+        height :"40px",
+        margin : "10px",
         textAlign :'center',
         backgroundColor : "gray",
         color : "black",
+        fontSize:"15px"
        
     }}
     onClick={props.action}>

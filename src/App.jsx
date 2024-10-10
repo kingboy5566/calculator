@@ -7,13 +7,8 @@ function App() {
   return (
     <>
 
-    <div style={{
-      width:"80%",
-      height : "500px",
-      margin :"0px 100px",
-      flexWrap:"wrap",
-    
-    }}>
+    <div  className='card-div'>
+      
      <Card
    
    text = "Instant Server Start"

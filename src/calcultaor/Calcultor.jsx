@@ -24,36 +24,26 @@ function AC(){
 
     return(
 
-<div className="clt">
-<div className="clt-contant">
-<div  style={{
-    borderRadius :"4px",
-    width  : "18%",
-    height :  "350px",
-    marginLeft :"40%",
-    textAlign :"center",
-    margin :"10px",
-    position : "absolute",
-    background : "black",
-    border:"1px solid green",
-   
-}}  >
+<div className="contanor">
+
+<div className="clt-contant" >
 
 <Input value={number}/> <br />
 <div style={{
     position : "relative",
     marginTop :"10px",
     backgroundColor :'black'
-}}>
-<Button text="AC"action = {AC} /><Button text="DEL"action = {del}/> <Button text="%" /> <Button text="/" action = {handle}/> <br />
-<Button text="7" action = {handle}/> <Button text="8"  action = {handle}/> <Button text="9"  action = {handle}/> <Button text="*" action = {handle}/><br />
-<Button text="4"  action = {handle}/> <Button text="5"  action = {handle}/> <Button text="6" action = {handle}/> <Button text="+" action = {handle}/> <br />
-<Button text="1" action = {handle}/> <Button text="2"  action = {handle}/> <Button text="3" action = {handle}/> <Button text="-"action = {handle}/><br />
-<Button text="0" action = {handle}/> <Button text="00" action = {handle}/> <Button text="." action = {handle}/> <Button text="=" action = {equal} /> <br /></div>
+}}></div>
+<div className="btns">
+<Button text="AC"action = {AC} /><Button text="DEL"  action = {del}/> <Button text="%" /> <Button text="/"  action = {handle} /> 
+<Button text="7" action = {handle}/> <Button text="8"  action = {handle}/> <Button text="9"  action = {handle}/> <Button text="*" action = {handle}/>
+<Button text="4"  action = {handle}/> <Button text="5"  action = {handle}/> <Button text="6" action = {handle}/> <Button text="+" action = {handle}/> 
+<Button text="1" action = {handle}/> <Button text="2"  action = {handle}/> <Button text="3" action = {handle}/> <Button text="-"action = {handle}/>
+<Button text="0" action = {handle}/> <Button text="00" action = {handle}/> <Button text="." action = {handle}/> <Button text="=" action = {equal} /></div>
  
 
 </div></div>
-</div>
+
     )
 }
 

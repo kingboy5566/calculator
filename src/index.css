@@ -1,15 +1,32 @@
-.clt{
+.contanor{
     width: 100%;
     height: 80%;
-   
-    position:absolute;
-}
-.clt-contant { 
-    width: 100%;
-    height: 100%;
-  display: flex;
+    display: flex;
   justify-content: center;
   
+}
+.clt-contant{
+  border-radius: 4px;
+  
+  width  : 300px;
+  height :  400px;
+  margin-left :40%;
+  text-Align :center;
+  margin :10px;
+ 
+  background-color : black;
+  border:1px solid green;
  
 
 }
+.btns{
+  width: 300px;
+  height:300px;
+}
+.card-div{
+  width: 80%;
+  height: auto;
+  margin: 0% 10%;
+
+}
+
