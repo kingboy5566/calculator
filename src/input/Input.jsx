@@ -4,7 +4,7 @@ function Input(props){
         style={{
             borderRadius:"4px",
             width: "95%",
-            height :"36px",
+            height :"45px",
             overflow : "hidden",
             backgroundColor : "lightgray",
             fontSize : "30px",

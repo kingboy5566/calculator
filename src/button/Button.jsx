@@ -1,3 +1,4 @@
+
 function Button(props){
     return (
     <button
@@ -16,6 +17,7 @@ function Button(props){
     onClick={props.action}>
          {props.action }
          {props.text}
+        
          
     
   </button>
