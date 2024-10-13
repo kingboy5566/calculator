@@ -17,9 +17,9 @@ function Like(){
     
     return(
         <>
-        <div className="container" >
-            <h3>Like and Dislike Tax Change through a Button</h3>
-         <Button variant="outline-primary" onClick={changName}>{text}</Button></div>
+        <div className="container like mt-2" >
+            <h3>Like and Dislike Tax Change through a Button </h3>
+         <Button variant="outline-primary" onClick={changName} className="mt-5 ">{text}</Button></div>
         
         </>
     )
