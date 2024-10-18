@@ -21,7 +21,9 @@ function Card(props){
        {props.img}
       
       </div>
+      
       </>
+      
     )
     }
     
