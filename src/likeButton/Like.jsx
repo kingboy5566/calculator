@@ -1,4 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React,{useState} from "react";
+import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
 
@@ -17,9 +19,10 @@ function Like(){
     
     return(
         <>
-        <div className="container like mt-2" >
+        < Container className="container like  " >
             <h3>Like and Dislike Tax Change through a Button </h3>
-         <Button variant="outline-primary" onClick={changName} className="mt-5 ">{text}</Button></div>
+         <Button variant="info" onClick={changName} className=" ">{text}</Button>
+         </ Container>
         
         </>
     )

@@ -1,13 +1,13 @@
 .contanor{
     width: 100%;
-    height: 80%;
+    height: 500px;
+  
     display: flex;
   justify-content: center;
   
 }
 .clt-contant{
   border-radius: 4px;
-  
   width  : 300px;
   height :  400px;
   margin-left :40%;
@@ -15,13 +15,14 @@
   margin :10px;
  
   background-color : black;
-  border:1px solid green;
+
  
 
 }
 .btns{
   width: 300px;
   height:300px;
+ 
 }
 .card-div{
   width: 80%;
@@ -29,9 +30,31 @@
   margin: 0% 10%;
 
 }
-
-.like h3{
-  text-align:center ;
+.like{
+ 
+  height: 150px;
+  margin-top: -45px;
+  justify-content: center;
+  justify-items: center;
 
 }
+.like h3{
+  border: 1px solid lightgray;
+  background-color: gray;
+  color: blue;
+  text-align:center ;
+  position: relative;
+
+
+}
+.like>button{
+  position: relative;
+  top: 15px;
+ 
+}
+
+
+
+
+
 
